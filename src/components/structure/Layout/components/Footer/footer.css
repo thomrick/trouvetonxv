@@ -1,0 +1,10 @@
+.footer {
+  background-color: #00000080;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(.25turn, #998AF5, #4E3CC2, #0B15FB);
+  padding-inline: 104px;
+  padding-block: 70px;
+}

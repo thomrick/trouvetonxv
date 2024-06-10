@@ -1,0 +1,12 @@
+.header {
+  position: sticky;
+  background-color: #00000080;
+  display: flex;
+  align-items: center;
+  height: 90px;
+  border-bottom: 1px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(.25turn, #998AF5, #4E3CC2, #0B15FB);
+  padding-inline: 30px;
+  padding-block: 10px;
+}
