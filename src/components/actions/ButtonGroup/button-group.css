@@ -1,0 +1,10 @@
+.button-group {
+  display: flex;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  background-color: #FFFFFF80;
+}
+
+.button-group .button {
+  flex: 1;
+}

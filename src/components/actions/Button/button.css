@@ -1,0 +1,20 @@
+.button {
+  all: unset;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: transparent;
+  height: 72px;
+  border-radius: 20px;
+  color: #464694;
+  font-size: 24px;
+  padding-inline: 24px;
+
+  cursor: pointer;
+}
+
+.button.active {
+  background-color: #FFFFFF;
+}
