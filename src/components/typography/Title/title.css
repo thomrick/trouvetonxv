@@ -1,0 +1,18 @@
+.title {
+  all: unset;
+  font-family: "Kavoon";
+  color: #D637AC;
+  font-size: 32px;
+  line-height: 62px;
+  text-shadow: 0px 0px 0px #252A43,
+               0px 0px 5px #252A43,
+               0px 0px 10px #252A43,
+               0px 0px 15px #252A43,
+               0px 0px 20px #252A43,
+               0px 0px 25px #252A43,
+               0px 0px 30px #252A43,
+               0px 0px 35px #252A43,
+               0px 0px 40px #252A43,
+               0px 0px 45px #252A43,
+               0px 0px 50px #252A43;
+}

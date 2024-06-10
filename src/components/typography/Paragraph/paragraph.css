@@ -1,0 +1,13 @@
+.paragraph {
+  all: unset;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.paragraph.sm {
+  font-size: 10px;
+}
+
+.paragraph.md {
+  font-size: 14px;
+}

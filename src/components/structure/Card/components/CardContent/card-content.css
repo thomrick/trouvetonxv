@@ -1,0 +1,8 @@
+.card-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 24px;
+  padding-block: 24px;
+  padding-inline: 48px;
+}

@@ -1,0 +1,12 @@
+.text {
+  font-weight: bold;
+  color: #D637AC;
+}
+
+.text.sm {
+  font-size: 10px;
+}
+
+.text.md {
+  font-size: 14px;
+}
