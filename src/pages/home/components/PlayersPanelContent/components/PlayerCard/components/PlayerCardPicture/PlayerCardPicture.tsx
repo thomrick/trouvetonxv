@@ -1,3 +1,4 @@
+import { Image } from "../../../../../../../../components";
 import "./player-card-picture.css";
 
 interface PlayerCardPictureProps {
@@ -6,7 +7,7 @@ interface PlayerCardPictureProps {
 
 const PlayerCardPicture = ({ src }: PlayerCardPictureProps) => (
   <div className="player-card__picture">
-    <img src={src} />
+    <Image src={src} />
   </div>
 );
 
