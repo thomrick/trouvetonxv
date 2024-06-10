@@ -1,7 +1,13 @@
-import { Page } from "../../components";
+import { Page, PageLayout, Panel } from "../../components";
 
 const HomePage = () => {
-  return <Page>Home</Page>
+  return (
+    <Page>
+      <PageLayout size="md">
+        <Panel>HomePage</Panel>
+      </PageLayout>
+    </Page>
+  );
 };
 
 export default HomePage;
