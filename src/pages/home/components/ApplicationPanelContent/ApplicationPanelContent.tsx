@@ -1,4 +1,5 @@
 import { Card, FlexBox, Panel, Paragraph, Text, Title } from "../../../../components";
+import Stores from "../Stores";
 
 const ApplicationPanelContent = () => (
   <Panel.Content>
@@ -16,7 +17,7 @@ const ApplicationPanelContent = () => (
               rugby amateur de la région.
             </Paragraph>
           </FlexBox>
-          <FlexBox>Stores</FlexBox>
+          <Stores />
           <Paragraph>
             Avec <Text>Trouve Ton XV</Text> fini les galères de bancs vide à chaque flocons
             de neige. Retrouvez les joueurs les plus motivés de la région et

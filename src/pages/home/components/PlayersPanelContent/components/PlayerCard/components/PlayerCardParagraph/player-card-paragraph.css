@@ -1,0 +1,10 @@
+.player-card__paragraph {
+  margin: 0;
+  font-size: 9px;
+  font-weight: 600;
+  color: #797374;
+  background-color: #614AD326;
+  border-radius: 0 0 40px 40px;
+  padding-inline: 20px;
+  padding-block: 10px;
+}

@@ -6,6 +6,7 @@ import {
   Text,
   Title,
 } from "../../../../components";
+import Stores from "../Stores";
 
 const ClubsPanelContent = () => (
   <Panel.Content>
@@ -53,6 +54,7 @@ const ClubsPanelContent = () => (
               </FlexBox>
             </FlexBox>
           </FlexBox>
+          <Stores />
         </Card.Content>
         {/* <Card.Footer>Footer</Card.Footer> */}
       </Card>
