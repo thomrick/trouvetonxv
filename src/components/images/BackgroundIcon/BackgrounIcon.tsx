@@ -1,3 +1,4 @@
+import Image from "../Image";
 import "./background-icon.css";
 
 type IconName =
@@ -18,7 +19,7 @@ interface BackgroundIconProps {
 
 const BackgroundIcon = ({ name }: BackgroundIconProps) => (
   <div className="background-icon">
-    <img src={`/icons/${name}.png`} alt={`${name} icon`} />
+    <Image src={`/icons/${name}.png`} alt={`${name} icon`} />
   </div>
 );
 

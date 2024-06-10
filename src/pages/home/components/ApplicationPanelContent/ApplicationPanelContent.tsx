@@ -1,4 +1,4 @@
-import { Card, FlexBox, Panel, Paragraph, Text, Title } from "../../../../components";
+import { Card, FlexBox, Image, Panel, Paragraph, Text, Title } from "../../../../components";
 import Stores from "../Stores";
 import './application-panel-content.css'
 
@@ -8,13 +8,13 @@ const ApplicationPanelContent = () => (
       <Card variant="secondary">
         <div className="application-panel-content__illustration">
           <div className="application-panel-content__illustration__top">
-            <img src="/illustrations/application-top.png" />
+            <Image src="/illustrations/application-top.png" />
           </div>
           <div className="application-panel-content__illustration__center">
-            <img src="/illustrations/application-center.png" />
+            <Image src="/illustrations/application-center.png" />
           </div>
           <div className="application-panel-content__illustration__bottom">
-            <img src="/illustrations/application-bottom.png" />
+            <Image src="/illustrations/application-bottom.png" />
           </div>
         </div>
       </Card>
@@ -25,7 +25,7 @@ const ApplicationPanelContent = () => (
         <Card.Content>
           <FlexBox align="center" gap="14px">
             <div>
-              <img src="/illustrations/application.png" />
+              <Image src="/illustrations/application.png" />
             </div>
             <Paragraph>
               La première application de rencontre entre joueurs et clubs de

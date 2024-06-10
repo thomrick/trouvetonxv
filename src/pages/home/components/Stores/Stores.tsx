@@ -1,13 +1,13 @@
-import { FlexBox } from "../../../../components";
+import { FlexBox, Image } from "../../../../components";
 import "./stores.css";
 
 const Stores = () => (
   <FlexBox justify="space-around">
     <div className="store">
-      <img src="/stores-appstore.png" />
+      <Image src="/stores-appstore.png" />
     </div>
     <div className="store">
-      <img src="/stores-googleplay.png" />
+      <Image src="/stores-googleplay.png" />
     </div>
   </FlexBox>
 );
