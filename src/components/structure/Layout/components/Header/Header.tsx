@@ -1,7 +1,10 @@
+import Logo from "./components/Logo";
 import "./header.css";
 
-const Header = () => {
-  return <header className="header">Header</header>;
-};
+const Header = () => (
+  <header className="header">
+    <Logo />
+  </header>
+);
 
 export default Header;
